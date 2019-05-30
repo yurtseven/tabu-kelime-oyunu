@@ -19,6 +19,7 @@ public class Main extends AppCompatActivity {
         Button hakkimizda = (Button) findViewById(R.id.hakkimizda_buton);
         Button admin_paneli = (Button) findViewById(R.id.admin_paneli_buton);
 
+        //Yeni Oyun Sayfası
         yeni_oyun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +27,8 @@ public class Main extends AppCompatActivity {
                 startActivity(yeni_oyun_intent);
             }
         });
-
+        
+        //Ayarlar Sayfası
         ayarlar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +44,8 @@ public class Main extends AppCompatActivity {
                 startActivity(admin_paneli_intent);
             }
         });
-
+        
+        //hakkımızda Sayfası
         hakkimizda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
