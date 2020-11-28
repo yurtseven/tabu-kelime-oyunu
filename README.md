@@ -1,5 +1,5 @@
-# tabu-word-game
-Word puzzle game for Android.
+# tabu-kelime-oyunu
+Android Studio'da Java ile geliştirdiğim ilk mobil oyun.
 
 <table>
   <tr>
